@@ -62,7 +62,6 @@ html,body{
     margin: 20px auto;
     background-color: var(--cor2);
     min-height: 600px;
-    border: 2px solid var(--cor4);
     display: flex;
     flex-wrap: wrap;
 }
@@ -171,6 +170,11 @@ section>.legenda{
     flex-wrap: wrap;
 }
 
+#educacao ul li{
+    min-width: 200px;
+    max-width: 250px;
+}
+
 #educacao .curso{
     width: 50%;
 }
@@ -207,6 +211,7 @@ section li>h5{
 
 #experiencia ul li{
     width: calc(50% - 45px);
+    min-width: 250px;
     padding: 5px;
 }
 
@@ -220,6 +225,7 @@ section li>h5{
 
 #habilidades{
     width: 100%;
+    border-top:2px solid var(--cor3);
 }
 
 #habilidades ul{

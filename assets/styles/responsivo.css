@@ -1,0 +1,44 @@
+@media only screen and (max-width:720px){
+    #sobre{
+        flex-direction: column;
+        text-align: center;
+    }
+    #sobre .apresentacao>*{
+        width: 100%;
+        
+    }
+    #sobre .apresentacao>h1,#sobre .apresentacao>h3{
+        text-align: center;
+    }
+    #contato{
+        width: 100%;
+        height: auto;
+        border: none;
+        border-top:2px solid var(--cor3); 
+    }
+    #educacao{
+        width: 100%;
+        border-left: none;
+    }
+
+    #educacao .legenda{
+        width: 450px;
+        left: calc(50% - 205px);
+        text-align: center;
+    }
+
+    #educacao ul li.curso{
+        max-width: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #experiencia ul li{
+        width: 100%;
+    }
+
+    #habilidades ul li{
+        width: 100%;
+    }
+
+}
