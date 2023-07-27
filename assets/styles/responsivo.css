@@ -39,6 +39,27 @@
 
     #habilidades ul li{
         width: 100%;
-    }
-
+    }  
 }
+
+@media only screen and (max-width:490px){
+    #educacao {
+        width: 100vw;
+    }
+    #educacao .legenda{
+        width: 100vw;
+        left: 0;
+    }
+    section .legenda{
+        width: 100vw;
+        left: 0;
+    }
+    #contato{
+        width: 100vw; 
+    }
+    #experiencia ul li{
+       margin: auto;
+    }
+}
+
+/* 340px */

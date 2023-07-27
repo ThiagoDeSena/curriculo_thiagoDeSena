@@ -143,6 +143,9 @@ section>.legenda{
 #contato a,#contato a:visited{
     color: var(--cor4);
 }
+#contato .a{
+    margin-left: 20px;
+}
 
 #contato>h3,#contato label{
     color: var(--cor3);
